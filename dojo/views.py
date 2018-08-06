@@ -18,7 +18,7 @@ def post_list1(request):
     return HttpResponse('''
         <h1>AskDjango</h1>
         <p>{name}</p>
-        <p>여러분의 파이썬&장고 페이스메이커가 되어드리겠습니다.</ㅔ>
+        <p>여러분의 파이썬&장고 페이스메이커가 되어드리겠습니다.</p>
     '''.format(name=name))
 
 
